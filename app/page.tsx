@@ -1,5 +1,9 @@
-import Image from "next/image";
+import PostList from "./Components/PostList";
 
 export default function Home() {
-  return <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>;
+  return (
+    <main className="w-3/5 mx-auto">
+      <PostList />
+    </main>
+  );
 }
